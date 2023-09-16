@@ -1,3 +1,6 @@
+// CSS
+import './style.css';
+
 import { loadHome } from "./pages/home";
 import { header } from "./components/header";
 import { footer } from "./components/footer";
