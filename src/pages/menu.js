@@ -12,6 +12,19 @@ function createMenu() {
       "Yellow split peas, Yukon gold potato, Corn kernels, Cashew cream, Smoked paprika, Apple cider vinegar, Onion, garlic, and celery.",
       50)
   );
+  menu.appendChild(
+    createMenuItem(
+      "Grilled Pork Tenderloin with Orange Marmalade Glaze",
+      "Pork tenderloin, Pinch crushed red pepper flakes, honey, orange marmalade and soy sauce.",
+      60)
+  );
+  menu.appendChild(
+    createMenuItem(
+      "Grilled Marinated Flank Steak",
+      "Flank steak, soy sauce, red wine vinegar, olive oil and honey.",
+      70)
+  );
+
   return menu;
 }
 
