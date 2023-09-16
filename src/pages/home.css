@@ -1,0 +1,15 @@
+.hero {
+  background-color: var(--main-color);
+	color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  padding: 50px;
+}
+
+img {
+  width: 500px;
+}

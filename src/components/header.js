@@ -1,3 +1,6 @@
+// CSS
+import './header.css';
+
 import { loadHome } from "../pages/home";
 import { loadMenu } from "../pages/menu";
 import { loadContact } from "../pages/contact";
@@ -6,25 +9,25 @@ function header() {
   const header = document.createElement('header');
   const nav = document.createElement('nav');
   const ul = document.createElement('ul');
-  const btnHome = document.createElement('button');
-  btnHome.classList.add('btn');
-  btnHome.textContent = 'Home';
-  const btnMenu = document.createElement('button');
-  btnMenu.classList.add('btn');
-  btnMenu.textContent = 'Menu';
-  const btnContact = document.createElement('button');
-  btnContact.classList.add('btn');
-  btnContact.textContent = 'Contact';
+  const linkHome = document.createElement('a');
+  linkHome.classList.add('btn');
+  linkHome.textContent = 'Home';
+  const linkMenu = document.createElement('a');
+  linkMenu.classList.add('btn');
+  linkMenu.textContent = 'Menu';
+  const linkCOntact = document.createElement('a');
+  linkCOntact.classList.add('btn');
+  linkCOntact.textContent = 'Contact';
   // Event Listeners
-  btnHome.addEventListener('click', loadHome);
-  btnMenu.addEventListener('click', loadMenu);
-  btnContact.addEventListener('click', loadContact);
+  linkHome.addEventListener('click', loadHome);
+  linkMenu.addEventListener('click', loadMenu);
+  linkCOntact.addEventListener('click', loadContact);
 
   header.appendChild(nav);
   nav.appendChild(ul);
-  ul.appendChild(btnHome);
-  ul.appendChild(btnMenu);
-  ul.appendChild(btnContact);
+  ul.appendChild(linkHome);
+  ul.appendChild(linkMenu);
+  ul.appendChild(linkCOntact);
 
   return header;
 }

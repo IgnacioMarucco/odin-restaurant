@@ -1,0 +1,28 @@
+.menu {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+.card {
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 20px;
+
+  border-radius: 5%;
+  text-align: center;
+}
+
+.card--body {
+  text-align: justify;
+}
+
+.card--footer {
+  align-self: flex-end;
+}

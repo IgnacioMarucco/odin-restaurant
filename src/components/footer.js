@@ -1,3 +1,6 @@
+// CSS
+import './footer.css';
+
 function footer() {
   const footer = document.createElement('footer');
   footer.textContent = 'Created by Ignacio Marucco';

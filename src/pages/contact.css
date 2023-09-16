@@ -1,0 +1,8 @@
+.contact {
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+
+  padding: 50px;
+  border-radius: 100%;
+}

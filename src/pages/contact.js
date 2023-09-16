@@ -1,8 +1,12 @@
+// CSS
+import './contact.css';
+
 function createContact() {
   const contact = document.createElement('div');
   const contactTitle = document.createElement('h2');
   const contactText = document.createElement('p');
 
+  contact.classList.add('contact');
   contactTitle.textContent = 'Make your reservation now!';
   contactText.textContent = '+54 0351 9999-9999 or lamesadelupita@gmail.com';
 
